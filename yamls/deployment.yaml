@@ -8,6 +8,5 @@ spec:
   containers:
   - name: app
     image: ercanesee/vault-demo:latest
-    env:
-    - name: ORTAM
-      value: "DEMO"
+    ports:
+    - containerPort: 80
